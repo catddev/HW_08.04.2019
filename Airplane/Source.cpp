@@ -3,8 +3,8 @@
 int main() {
 
 	char tmp[20];
+	strcpy_s(tmp, "Airbus-360");
 	cout << "Enter a type of airplane" << endl;
-	cin >> tmp;
 	Airplane a1(tmp, 750, 136);
 	Airplane a2 = a1;
 
